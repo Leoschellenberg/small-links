@@ -20,7 +20,7 @@ export const Container = styled.header`
         color: var(--title);
         border-radius: 5px;
         font-weight: 500;
-
+        
         transition: filter 0.2s;
 
         &:hover{
