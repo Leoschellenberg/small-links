@@ -37,7 +37,7 @@ export const Container = styled.main`
         align-items: center;
         gap: 1rem;
 
-        animation: slideY 2s;
+        animation: slideY 1s;
 
         div{
                 width: 100%;
