@@ -6,4 +6,8 @@ export const Container = styled.div`
     left: 0;
     right: 0;
     z-index: -1;
+
+    img{
+        max-width: 100%;
+    }
 `;

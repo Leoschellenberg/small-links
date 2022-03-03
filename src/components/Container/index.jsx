@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 import Logo from '../../assets/logo.svg';
 import { FiLink } from 'react-icons/fi';
-
 import { Container } from './styles';
 import Modal from '../Modal';
 
