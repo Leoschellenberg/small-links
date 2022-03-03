@@ -5,8 +5,8 @@ export const Container = styled.main`
     flex: 1;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
-    height: calc(100vh - 72px);
+    padding-top: 5rem;
+    min-height: calc(100vh - 72px);
     width: 100%;
 
     .logo{

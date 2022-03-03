@@ -38,4 +38,9 @@ export const GlobalStyle = createGlobalStyle`
     button {
         cursor: pointer;
     }
+
+    #root{
+        width: 100%;
+        min-height: 100vh;
+    }
 `;

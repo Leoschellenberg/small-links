@@ -4,10 +4,12 @@ import facebookImg from '../../assets/404.svg';
 import { Container } from './styles';
 import { FiChevronLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import WaveFooter from '../../components/WaveFooter';
 
 export default function Header() {
     return (
-     <Container>
+      <>
+      <Container>
         <img src={facebookImg} alt="Facebook" />
 
             <Link to="/" className='link'>
@@ -15,5 +17,7 @@ export default function Header() {
                     Voltar para Home
             </Link>
      </Container>
+     <WaveFooter />
+      </>
     );
   }
