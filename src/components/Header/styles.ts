@@ -9,14 +9,14 @@ export const Container = styled.header`
     padding: 1rem 2rem;
 
     img {
-        width: 2rem;
+        max-width: 1.8rem;
     }
 
     button {
         background-color: var(--bg-button);
         font-size: 1rem;
         border: 0;
-        padding: .5rem 2.5rem;
+        padding: .4rem 2rem;
         color: var(--title);
         border-radius: 5px;
         font-weight: 500;

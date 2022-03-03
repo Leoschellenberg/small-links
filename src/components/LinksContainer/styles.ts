@@ -27,7 +27,7 @@ export const Container = styled.div`
         justify-content: flex-start;
 
         h2{
-            color: #263238;
+            color: #EBEBEB;
             text-transform: uppercase;
             font-size: 1rem;
         }

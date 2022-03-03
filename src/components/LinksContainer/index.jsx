@@ -54,9 +54,8 @@ export default function LinksContainer() {
 
        { emtyList && (
          <div className='empty-list'>
-           
            <img src={Empty} alt="Sem Links em Lista" />
-           <h2>Você não tem Links salvos!</h2>
+           <h2>Ops ...você não tem Links salvos!</h2>
          </div>
        )}
 
