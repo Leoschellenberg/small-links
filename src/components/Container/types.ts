@@ -1,3 +1,1 @@
-export type ShowModal = {
-    showModal: boolean
-}
+export type showModal = boolean;

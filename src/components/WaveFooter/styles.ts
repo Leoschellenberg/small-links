@@ -8,6 +8,7 @@ export const Container = styled.div`
     z-index: -1;
 
     img{
-        max-width: 100%;
+        width: 100%;
+        height: 100%;
     }
 `;
