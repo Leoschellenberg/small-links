@@ -52,12 +52,13 @@ export const ListItem = styled.div`
     }
 
     .link{
-        display: flex;
+        display: grid;
+        grid-template-columns: auto 1fr;
         flex: 1;
+        text-align: left;
         gap: .5rem;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;
     }
 
 `;
