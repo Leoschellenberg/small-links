@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
         background: var(--background);
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        overflow-y: hidden;
     }
 
     body, input, textarea, button {

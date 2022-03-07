@@ -15,8 +15,10 @@ export const Container = styled.div`
     animation: slideY 1s;
 
     span{
+        display: flex;
         font-size: 1rem;
         color: var(--link);
+        flex-wrap: wrap;
     }
 
     button{
@@ -28,6 +30,7 @@ export const Container = styled.div`
         border: none;
         border-radius: 5px;
         background: var(--background);
+        
     }
 
 
@@ -57,6 +60,7 @@ export const Header = styled.header`
     h1{
         font-size: 1.5rem;
         color: var(--title-modal);
+        flex-wrap: wrap;
     }
 
     button{
