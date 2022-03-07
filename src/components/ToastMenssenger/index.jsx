@@ -7,7 +7,7 @@ export default function ToastMenssenger(){
   return (
     <ToastContainer
       position="top-center"
-      autoClose={5000}
+      autoClose={1300}
       hideProgressBar={false}
       newestOnTop={false}
       closeOnClick
