@@ -45,7 +45,10 @@ export default function LinksContainer() {
     }
 
     setMyLinks(result);
-    toast.info("Link apagado com sucesso!", { autoClose: 1000 })
+    toast.warning("Link apagado com sucesso!", 
+    { autoClose: 2000, 
+      theme: "colored"
+    })
   }
 
     return (

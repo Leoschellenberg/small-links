@@ -15,7 +15,7 @@ export default function ToastMenssenger(){
       pauseOnFocusLoss
       draggable
       pauseOnHover
-      icon={false} 
+      //icon={false}                                  
       >
   </ToastContainer>
   );
