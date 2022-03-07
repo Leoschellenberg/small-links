@@ -7,6 +7,7 @@ import Modal from '../Modal';
 
 import api from '../../services/api';
 import { saveLink } from '../../services/storeLinks';
+import { toast } from 'react-toastify';
 
 
 export default function Header() {
@@ -27,7 +28,7 @@ export default function Header() {
 
             setShowModal(true)
         }catch{
-            alert("Ops parece que algo deu errado!")
+            toast.error("Ops parece que algo deu errado!");
         } finally{
             setLink('');
         }

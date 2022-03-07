@@ -1,11 +1,13 @@
+import React from 'react';
 import { Container, Header } from './styles';
 import { FiX, FiClipboard } from 'react-icons/fi';
+import { toast } from 'react-toastify';
 
 export default function Modal({ closeModal, data }) {
     
     async function copyLink(){
         await navigator.clipboard.writeText(data.link);
-        alert("URL Copiada com sucesso")
+        toast("URL Copiada com sucesso!");
     }
 
     return (

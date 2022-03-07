@@ -4,9 +4,12 @@ import { Container, ListItem } from './styles';
 import Empty from '../../assets/empty.svg'
 import Modal from '../Modal';
 
+import { toast } from 'react-toastify';
+
 import { useState, useEffect } from 'react';
 
 import { getLinksSave, deleteLink } from '../../services/storeLinks';
+
 
 export default function LinksContainer() {
 
@@ -24,6 +27,7 @@ export default function LinksContainer() {
         }
 
         setMyLinks(result);
+
       }
       getLinks();
   }, [])
@@ -41,6 +45,7 @@ export default function LinksContainer() {
     }
 
     setMyLinks(result);
+    toast.info("Link apagado com sucesso!", { autoClose: 1000 })
   }
 
     return (
@@ -75,6 +80,7 @@ export default function LinksContainer() {
          <Modal 
             closeModal={() => setShowModal(false)}
             data={data}
+            className="Modal"
          />
        ) }
       </Container>
