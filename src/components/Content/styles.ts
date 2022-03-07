@@ -36,8 +36,7 @@ export const Container = styled.main`
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-
-        animation: slideY 1s;
+        animation: slideY 0.7s ease 0.3s 1 normal none running;
 
         div{
                 width: 100%;

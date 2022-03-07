@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     position: absolute;
+    align-self: center;
     bottom: 5rem;
     background: #fff;
     padding: 14px;
@@ -15,10 +16,12 @@ export const Container = styled.div`
     animation: slideY 1s;
 
     span{
-        display: flex;
         font-size: 1rem;
         color: var(--link);
-        flex-wrap: wrap;
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     button{

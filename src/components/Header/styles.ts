@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const Container = styled.header`
     display: flex;
     justify-content: flex-end;
+    max-width: 1400px;
+    margin: 0 auto ;
     align-items: center;
     height: 72px;
     gap: 30px;
-    padding: 1rem 2rem;
+    padding: 1rem;
 
     img {
-        max-width: 1.8rem;
+        max-width: 1.4rem;
     }
 
     button {
