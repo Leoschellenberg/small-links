@@ -45,6 +45,7 @@ export default function LinksContainer() {
     }
 
     setMyLinks(result);
+    setShowModal(false)
     toast.warning("Link apagado com sucesso!", 
     { autoClose: 2000, 
       theme: "colored"
