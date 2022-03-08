@@ -30,7 +30,7 @@ export default function Header() {
         }catch{
             toast.error("Ops parece que algo deu errado!");
         } finally{
-            setLink(''); 
+            setLink('');
         }
        
     }

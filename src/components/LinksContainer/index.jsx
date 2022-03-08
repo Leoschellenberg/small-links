@@ -1,5 +1,4 @@
-import { FiChevronLeft, FiLink, FiTrash, FiChevronRight } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { FiLink, FiTrash } from 'react-icons/fi';
 import { Container, ListItem} from './styles';
 import Empty from '../../assets/empty.svg'
 import Modal from '../Modal';
