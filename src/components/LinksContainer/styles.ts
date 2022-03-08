@@ -63,5 +63,3 @@ export const ListItem = styled.div`
     }
 
 `;
-
-export const Breadcrumbs = styled.div``;
