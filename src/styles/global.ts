@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         --placeholder: #E6E6E6;
         --link: #818181;
         --icons: #FFFFFF;
+        --page-breadcrumbs: #c3a0ff;
     }
     * {
         margin: 0;

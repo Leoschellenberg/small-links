@@ -1,10 +1,11 @@
-import { FiChevronLeft, FiLink, FiTrash } from 'react-icons/fi';
+import { FiChevronLeft, FiLink, FiTrash, FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import { Container, ListItem } from './styles';
+import { Container, ListItem} from './styles';
 import Empty from '../../assets/empty.svg'
 import Modal from '../Modal';
 
 import { toast } from 'react-toastify';
+import Breadcrumbs from '../Breadcrumbs';
 
 import { useState, useEffect } from 'react';
 
@@ -53,12 +54,8 @@ export default function LinksContainer() {
 
     return (
       <Container>
-       <div className="links-header">
-         <Link to="/">
-          <FiChevronLeft size={38} color="#fff"/>
-         </Link>
-         <h1>Meus Links</h1>
-       </div>
+        
+       <Breadcrumbs />
 
        { emtyList && (
          <div className='empty-list'>
