@@ -12,6 +12,7 @@ export const Container = styled.header`
 
     img {
         max-width: 1.4rem;
+        height: 1.4rem;
     }
 
     button {

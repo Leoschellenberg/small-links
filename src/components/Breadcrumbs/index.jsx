@@ -11,7 +11,7 @@ export default function Breadcrumbs() {
     return (
      <Container>
         <Link to='/'>Home</Link>
-        <FiChevronRight  size={28} color="#fff"/>
+        <FiChevronRight  size={18} color="#fff"/>
         <span>{pathName}</span>
      </Container>
      
