@@ -70,7 +70,7 @@ export default function LinksContainer() {
               {link.long_url}
             </button>
             <button onClick={() => handleDelete(link.id)}>
-              <FiTrash size={24} color="#fff"/>
+              <FiTrash size={20} color="#fff"/>
             </button>
           </ListItem>
        )) }

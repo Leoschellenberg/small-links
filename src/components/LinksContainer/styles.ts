@@ -40,11 +40,12 @@ export const Container = styled.div`
 
 export const ListItem = styled.div`
     display: flex;
-    padding: .5rem 1rem;
+    padding: 0.625rem 1rem;
     background: var(--bg-button);
     border-radius: 5px;
     align-items: center;
     margin-top: 1rem;
+    gap: .5rem;
 
     button{
         background: transparent;
